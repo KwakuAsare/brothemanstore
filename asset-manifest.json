@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kwakuasare.github.io/brothemanstore/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/kwakuasare.github.io/brothemanstore/static/js/main.2d74cb49.chunk.js",
+    "main.js.map": "/kwakuasare.github.io/brothemanstore/static/js/main.2d74cb49.chunk.js.map",
+    "runtime-main.js": "/kwakuasare.github.io/brothemanstore/static/js/runtime-main.be31979f.js",
+    "runtime-main.js.map": "/kwakuasare.github.io/brothemanstore/static/js/runtime-main.be31979f.js.map",
+    "static/css/2.4be38407.chunk.css": "/kwakuasare.github.io/brothemanstore/static/css/2.4be38407.chunk.css",
+    "static/js/2.e620b6f6.chunk.js": "/kwakuasare.github.io/brothemanstore/static/js/2.e620b6f6.chunk.js",
+    "static/js/2.e620b6f6.chunk.js.map": "/kwakuasare.github.io/brothemanstore/static/js/2.e620b6f6.chunk.js.map",
+    "static/js/3.4513013e.chunk.js": "/kwakuasare.github.io/brothemanstore/static/js/3.4513013e.chunk.js",
+    "static/js/3.4513013e.chunk.js.map": "/kwakuasare.github.io/brothemanstore/static/js/3.4513013e.chunk.js.map",
+    "index.html": "/kwakuasare.github.io/brothemanstore/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/kwakuasare.github.io/brothemanstore/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/kwakuasare.github.io/brothemanstore/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.e620b6f6.chunk.js.LICENSE.txt": "/kwakuasare.github.io/brothemanstore/static/js/2.e620b6f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be31979f.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.e620b6f6.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.2d74cb49.chunk.js"
+  ]
+}
