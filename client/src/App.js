@@ -21,8 +21,9 @@
 
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import "./styles.css";
 import Table from "./components/Table";
+import Banner from "./components/banner"
+
 export default function App() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
@@ -63,6 +64,7 @@ export default function App() {
   );
   return (
     <div className="App">
+      <Banner />
       <h1>Example of React table with FakeStore API</h1>
       <Table columns={columns} data={products} />
     </div>
