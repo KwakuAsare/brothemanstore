@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useTable, useFilters, useSortBy } from "react-table";
 
+//utilising react-table to set up my page
+//previously used generic html pages (allproductslist to display the store page)
 export default function Table({ columns, data }) {
   const [filterInput, setFilterInput] = useState("");
   const {
@@ -23,6 +25,7 @@ export default function Table({ columns, data }) {
     setFilter("title", value);
     setFilterInput(value);
   };
+  //page layout
   return (
     <>
       <div className="form-group input-group">

@@ -26,11 +26,14 @@ import Banner from "./components/banner"
 
 export default function App() {
   const [products, setProducts] = useState([]);
+  //using "fetch" to make a request to the fake store API
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then((res) => res.json())
       .then((json) => setProducts(json));
   }, []);
+
+  //grabing key value pair from JSON object response
   const columns = React.useMemo(
     () => [
       {
@@ -65,7 +68,7 @@ export default function App() {
   return (
     <div className="App">
       <Banner />
-      <h1>Example of React table with FakeStore API</h1>
+      
       <Table columns={columns} data={products} />
     </div>
   );

@@ -1,17 +1,15 @@
 import React from "react";
+import "../styles/Header.css";
 
 
 function Banner() {
     return (
-        <div className="container">
-            <div className="jumbotron bg-primary text-center">
-                <h1>Brotherman Store</h1>
-                <p>All your food and stuff</p>
-                <p>
-                    
-                </p>
-            </div>
-        </div>
+        <div className="header">
+        <h1>Brotherman Store</h1>
+        <p>All your ever needed!!</p>
+        <p>Contact us for express delivery.</p>
+      </div>
+       
     )
 }
 
